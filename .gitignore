@@ -3,18 +3,23 @@
 venv/
 __pycache__/
 *.py[cod]
+*.pyc
 .pytest_cache/
 
 # Secrets & local environment variables
 .env
 
 # Heavy local datasets (JPL SPICE, Gaia DR4, DuckDB)
+data/spice/
+data/gaia_parquet/
 data/ephemeris/
 *.bsp
 *.parquet
 *.duckdb
 *.h5
 *.fits
+*.tls
+*.tpc
 
 # OS files
 .DS_Store
