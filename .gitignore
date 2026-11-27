@@ -1,0 +1,21 @@
+# Python virtual environments & bytecode
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Secrets & local environment variables
+.env
+
+# Heavy local datasets (JPL SPICE, Gaia DR4, DuckDB)
+data/ephemeris/
+*.bsp
+*.parquet
+*.duckdb
+*.h5
+*.fits
+
+# OS files
+.DS_Store
+Thumbs.db
